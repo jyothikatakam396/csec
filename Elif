@@ -1,0 +1,14 @@
+a=int(input('enter a number'))
+if(no%2==0):
+    print('Divisible by 2')
+elif(no%3==0):
+    print('Divisible by 3')
+elif(no%5==0):
+    print('Divisible by 5')
+else:
+    print('Not divisible')
+
+
+Output:
+enter a number60
+Divisible by 2
