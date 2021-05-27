@@ -1,0 +1,20 @@
+n=int(input("enter amount"))
+if n>1000:
+    discount=(n*10)/100
+    print("Discount=",discount)
+elif n>2000:
+    discount=(n*20)/100
+    print("Discount=",discount)
+elif n>3000:
+    discount=(n*30)/100
+    print("Discount=",discount)
+elif n>5000:
+    discount=(n*50)/100
+    print("Discount=",discount)
+else:
+    print("no discount")
+print("Amount=",n-discount)
+'''OUTPUT
+enter amount1200
+Discount= 120.0
+Amount= 1080.0'''
