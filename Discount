@@ -14,7 +14,7 @@ elif n>5000:
 else:
     print("no discount")
 print("Amount=",n-discount)
-'''OUTPUT
+OUTPUT
 enter amount1200
 Discount= 120.0
-Amount= 1080.0'''
+Amount= 1080.0
