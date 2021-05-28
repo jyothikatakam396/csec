@@ -1,0 +1,17 @@
+start=int(input("enter starting value :"))
+end=int(input("enter ending value:"))
+step_count=int(input("enter updation:"))
+while start>=end:
+  print(start, end="\n")
+  start-=step_count
+Output:
+enter starting value :10
+enter ending value:1
+enter updation:2
+10
+8
+6
+4
+2
+
+Process finished.
