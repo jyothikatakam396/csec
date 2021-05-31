@@ -1,0 +1,17 @@
+a=int(input())
+i=1
+while(a>=i):
+    if(a%i==0):
+        print(i)
+    i=i+1
+
+Output:
+75
+1
+3
+5
+15
+25
+75
+
+Process finished.
