@@ -1,0 +1,16 @@
+n=int(input("enter n value:")) 
+i=2
+while(i<n):
+ if(n%i==0):
+  print("not a prime number")
+  break 
+ i=i+1 
+if(i==n):
+ print("prime number")
+
+
+output
+1.enter n value:10
+ not a prime number 
+2.enter n value:5
+ prime number
