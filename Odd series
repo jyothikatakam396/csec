@@ -1,0 +1,16 @@
+s=int(input('enter starting value'))
+e=int(input('enter ending value'))
+for i in range(s,e+1,2):
+ print(i)
+
+
+Output:
+enter starting value1
+enter ending value10
+1
+3
+5
+7
+9
+
+Process finished.
