@@ -1,0 +1,20 @@
+n=int(input("enter starting number"))
+e=int(input("enter ending number"))
+sum1=0
+for n in range(n, e+1):
+   if(n%2!=0):
+     sum1=sum1+n
+     print("n is %d and sum is %d"%(n,sum1))
+print("sum is %d"%sum1)
+
+Output
+enter starting number0
+enter ending number10
+n is 1 and sum is 1
+n is 3 and sum is 4
+n is 5 and sum is 9
+n is 7 and sum is 16
+n is 9 and sum is 25
+sum is 25
+
+Process finished
