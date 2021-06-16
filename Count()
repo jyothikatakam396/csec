@@ -1,0 +1,18 @@
+
+#count(),count(substring,start,end) methods
+
+#input
+s=input("enter string :")
+print("count()")
+result1=s.count("am")
+print(result1)
+print("count(substring,start,end)")
+result2=s.count("a",0,18)
+print(result2)
+
+#output
+enter string :I am CSE C Student.I am learning strings topic in python.
+count()
+2
+count(substring,start,end)
+1
