@@ -1,0 +1,13 @@
+s=input("enter string : ")
+for i in range(0,len(s)+1):
+ if(s[i].lower()==s[i]):
+    print(True)
+    break
+else:
+    print(False)
+
+Output:
+enter string : ABCd123
+True
+
+Process finished... 
