@@ -1,0 +1,41 @@
+]
+print('original list')
+print(list)
+print('reading element from user to delete')
+removing_element=input('enter element')
+print(removing_element)
+list.remove(removing_element)
+print('modified list')
+print(list)
+print('reading position from user')
+remove_element=list.pop(2)
+print('removed element based on index is')
+print(remove_element)
+print('list after an element at certain index is removed is')
+print(list)
+print('deleting top element')
+element=list.pop()
+print('top element is')
+print(element)
+print('list after top element is deleted is')
+print(list)
+
+'''OUTPUT
+original list
+['CSE', 'IT', 1, 2, 4, 'MECH', 'ECE', 456, 765, 765]
+reading element from user to delete
+enter elementMECH
+MECH
+modified list
+['CSE', 'IT', 1, 2, 4, 'ECE', 456, 765, 765]
+reading position from user
+removed element based on index is
+1
+list after an element at certain index is removed is
+['CSE', 'IT', 2, 4, 'ECE', 456, 765, 765]
+deleting top element
+top element is
+765
+list after top element is deleted is
+['CSE', 'IT', 2, 4, 'ECE', 456, 765]
+'''
