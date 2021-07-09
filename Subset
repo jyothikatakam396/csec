@@ -1,0 +1,10 @@
+s1={1,2,3,4,5,6} 
+s2={3,4,5,6} 
+result=s2.issubset(s1) 
+print(result) 
+result1=s1.issubset(s2) 
+print(result1) 
+
+Output
+True
+False
